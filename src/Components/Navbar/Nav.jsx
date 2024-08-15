@@ -15,7 +15,7 @@ const Nav = () => {
 
 
     return (
-        <div>
+        <div className="ml-20 mr-20">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -39,7 +39,7 @@ const Nav = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-2xl">Book Vibe</a>
+                    <a className="btn btn-ghost text-2xl text-green-400 font-bold">Book Vibe</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -47,8 +47,8 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-6">
-                    <a className="btn bg-green-500 w-28 h-4">Sign In</a>
-                    <a className="btn bg-teal-300 w-28 h-4">Sign Up</a>
+                    <a className="btn bg-green-400 w-28 h-4 text-white">Sign In</a>
+                    <a className="btn bg-teal-300 w-28 h- text-white">Sign Up</a>
                 </div>
             </div>
         </div>
