@@ -14,7 +14,7 @@ const Banner = () => {
                 </div>
                 <div className=" mr-40 ">
                     <div className="w-[318px] h-[394px] flex flex-row justify-around items-center ">
-                        <img src="/449714570_1028802128864981_7984422022768001535_n.jpg" alt="" />
+                        <img src="/public/hand-drawn-flat-design-stack-books-illustration.png" alt="" />
                     </div>
                 </div>
 

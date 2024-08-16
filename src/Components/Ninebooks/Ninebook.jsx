@@ -14,7 +14,7 @@ const Ninebook = ({ singlebook }) => {
                     <div className=" h-[300px] grid grid-cols-1 place-items-center border-6 bg-gray-200 rounded-2xl  ">
 
                         <div className="w-[180px] h-[270px] border-4 ">
-                            <img src={coverImage} alt="" />
+                            <img className="rounded-lg" src={coverImage} alt="" />
                         </div>
                     </div>
 
