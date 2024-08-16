@@ -7,7 +7,7 @@ const ListedBook = () => {
         <div>
             <h1>This is all books list</h1>   
 
-            <Booksdetails></Booksdetails>       
+                  
         </div>
     );
 };
