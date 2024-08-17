@@ -48,13 +48,6 @@ const ListedBook = () => {
             </div>
 
 
-
-
-
-
-
-
-
         </div>
     );
 };

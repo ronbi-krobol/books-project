@@ -12,33 +12,33 @@ const Bookscomplete = ({ ronbi }) => {
     return (
 
         <div className=" flex justify-center mt-8">
-            <div className="flex w-[1200px] border-[2px] rounded-lg p-6 ">
+            <div className="flex w-[1200px] border-[2px] rounded-lg p-6 justify-around">
 
-                <div className="w-[300px] p-8 rounded-lg flex justify-center items-center bg-gray-100">
-                    <img className="w-[2200px] h-[320px] rounded-lg" src={coverImage} alt="" />
+                <div className="w-[280px] h-[320px] p-8 rounded-lg flex justify-center items-center bg-gray-100">
+                    <img className="w-[2200px] h-[280px] rounded-lg" src={coverImage} alt="" />
                 </div>
-                <div>
-                    <h1 className="font-extrabold text-2xl p-4">{bookName}</h1>
-                    <p className="font-bold text-xl p-4"> By : {author}</p>
+                <div className=" grid grid-cols-1 content-center">
+                    <h1 className="font-extrabold text-2xl p-2">{bookName}</h1>
+                    <p className="font-bold text-xl p-2"> By : {author}</p>
                     <div className="flex items-center">
-                        <p className="font-bold text-sm p-4">Tag <span>#{tag}</span></p>
+                        <p className="font-bold text-sm p-2">Tag <span>#{tag}</span></p>
                         <p className="text-lg"><CiLocationOn /></p>
-                        <h6 className="font-normal text-md p-4">Year of publishing : {yearOfPublishing} </h6>
+                        <h6 className="font-normal text-md p-2">Year of publishing : {yearOfPublishing} </h6>
                     </div>
                     <div>
-                        <div className="flex items-center p-4">
+                        <div className="flex items-center p-2">
                             <h3 className="text-lg"><GoPeople /></h3>
-                            <p className="font-normal text-md p-4">Publisher : {publisher}</p>
+                            <p className="font-normal text-md p-2">Publisher : {publisher}</p>
                         </div>
-                        <div className="flex items-center p-4">
+                        <div className="flex items-center p-2">
                             <h3 className="text-xl"><TbBrandPagekit /></h3>
-                            <p className="font-normal text-md p-4">Pages : {pages}</p>
+                            <p className="font-normal text-md p-2">Pages : {pages}</p>
                         </div>
-                        <hr />
-                        <div className="flex items-center p-4 gap-40">
-                            <h2 className="font-normal text-md bg-blue-100 h-[34px] w-[100px] ">Category : {category} </h2>
-                            <h2 className="font-normal text-md "> Rating : {rating}</h2>
-                            <Link to ={`/book/${id}`} ><button> View Details</button></Link>
+                        <hr className="border-[1px] border-gray-400 ml-4" />
+                        <div className="flex items-center p-3 gap-40">
+                            <h2 className="font-bold text-md text-blue-500 bg-blue-100 p-3 mt-2 rounded-2xl ">Category : {category} </h2>
+                            <h2 className="font-bold text-md text-yellow-600 bg-yellow-100 p-3 mt-2 rounded-2xl w-[180px"> Rating : {rating}</h2>
+                            <Link to ={`/book/${id}`} ><button className="bg-green-500 text-white p-3 mt-2 rounded-2xl "> View Details</button></Link>
                         </div>
 
                     </div>
