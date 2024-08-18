@@ -27,9 +27,9 @@ const Onebook = () => {
             saveBooklist(idInt);
             toast("You read the book !");
 
-            if (storedWishBooklist.includes(idInt)) {
+        if (storedWishBooklist.includes(idInt)) {
                 removeWishBookFromList(idInt); // Call the function with correct bookId
-                toast("This book was removed from the wishlist because it's marked as read.");
+                toast.info("This book was removed from the wishlist because it's marked as read.");
             }
 
 
